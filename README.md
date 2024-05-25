@@ -59,7 +59,7 @@ Access the application:
 
 # Resources
 
-![Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
+Python Virtual Environments- https://docs.python.org/3/tutorial/venv.html
 
 pip User Guide- https://pip.pypa.io/en/stable/user_guide/
 

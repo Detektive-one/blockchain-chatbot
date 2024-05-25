@@ -43,12 +43,34 @@ body {
   z-index: 10;
   color: var(--text-color);
 }
+.logout-container {
+  position: fixed;
+  bottom: 20px;
+  left: 75px ;
+  text-align: left;
+}
 
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
 .sidebar h2 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: bold;
+  position:relative;
   color: var(--text-color);
 }
 
@@ -292,30 +314,7 @@ span.material-symbols-rounded {
 .typing-controls span:hover {
   background: var(--icon-hover-bg);
 }
-/* .logout-container {
-  position:relative;
-  bottom: 2000px;
-  width: 100%;
-  text-align: center;
-  
-} */
 
-.logout-btn {
-  background-color: #dc3545;
-  margin-top: 520px;
-  margin-left: 40px;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-size: 16px;
-}
-
-.logout-btn:hover {
-  background-color: #c82333;
-}
 
 
 

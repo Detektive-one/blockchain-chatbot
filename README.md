@@ -46,7 +46,6 @@ Detailed steps to install and set up the project. Be sure to include all depende
 Run the project:
     
     - run ganache cli [ this will start a new blockchain ]
-    ``` ganache ```
     
     - open remix IDE, connect to ganache provider, deploy the contract
     

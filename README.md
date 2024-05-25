@@ -5,8 +5,8 @@ Welcome to the Autonomous chat-bot based upon smart contract and blockchain! Thi
 
 Default login credentials: 
 
-Username : User
-Password : Password
+Username : user
+Password : password
 
 DRY RUN IMAGES:
 ![login](https://github.com/Detektive-one/blockchain-chatbot/assets/86166599/148b8675-ebd6-424b-9ed0-3aab9a803b6a)
@@ -46,6 +46,7 @@ Detailed steps to install and set up the project. Be sure to include all depende
 Run the project:
     
     - run ganache cli [ this will start a new blockchain ]
+    ``` ganache ```
     
     - open remix IDE, connect to ganache provider, deploy the contract
     

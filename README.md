@@ -10,10 +10,28 @@ DRY RUN IMAGES:
 
 ![chat](https://github.com/Detektive-one/blockchain-chatbot/assets/86166599/850409d9-dd78-4266-a6c1-4c388dcc8c4a)
 
+# Table of Contents
 
+    Installation
+    Usage
+    License
+    Acknowledgments
 
+# Installation
 
+Detailed steps to install and set up the project. Be sure to include all dependencies and any system requirements.
 
+    1. Clone the repository:
+    bash
+
+git clone [https://github.com/yourusername/your-repo-name.git
+](https://github.com/Detektive-one/blockchain-chatbot)
+
+Navigate into the project directory:
+
+bash
+
+cd blockchain-chatbot
 
 
 - install necessary libraries for python and js [ web3, ganache, flask, flask_login, anthropic , CORS]

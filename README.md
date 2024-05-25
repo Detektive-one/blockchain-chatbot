@@ -23,15 +23,13 @@ Detailed steps to install and set up the project. Be sure to include all depende
 
     1. Clone the repository:
        bash
-       git clone [https://github.com/yourusername/your-repo-name.git] (https://github.com/Detektive-one/blockchain-chatbot)
+       
+       git clonehttps://github.com/Detektive-one/blockchain-chatbot
 
+    2. Navigate into the project directory:
+       bash
 
-
-Navigate into the project directory:
-
-bash
-
-cd blockchain-chatbot
+       cd blockchain-chatbot
 
 
 - install necessary libraries for python and js [ web3, ganache, flask, flask_login, anthropic , CORS]

@@ -30,12 +30,29 @@ Detailed steps to install and set up the project. Be sure to include all depende
        bash
 
        cd blockchain-chatbot
+       
+    3. Install the necessary dependencies:
+    
+       pip install -r requirements.txtv ([ web3, ganache, flask, flask_login, anthropic , CORS])
 
+# Usage
+Run the project:
+    
+    - run ganache cli [ this will start a new blockchain ]
+    
+    - open remix IDE, connect to ganache provider, deploy the contract
+    
+    - add the contract address and ABI to the app.py file and contract.js file
+    
+    - run the python server 
+      (python app.py)
 
-- install necessary libraries for python and js [ web3, ganache, flask, flask_login, anthropic , CORS]
-- run ganache cli [ this will start a new blockchain ]
-- open remix IDE, connect to ganache provider, deploy the contract
-- add the contract address and ABI to the app.py file and contract.js file
-- run the python server [ python app.py on cmd ]
+Access the application:
+
+    Open a web browser and go to "http://localhost:3000"
+    
 - voila we are done. enjoy the chatbot. for any issues with responses, hard refresh the interface.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
   

@@ -4,6 +4,7 @@
 Welcome to the Autonomous chat-bot based upon smart contract and blockchain! This chatbot leverages the power of the Ethereum blockchain to provide a decentralized, secure, and transparent communication platform. Primarily trained on data related to cybersecurity and blockchain technology, it offers robust and reliable interactions while ensuring data integrity and privacy. Each conversation is immutably stored on the blockchain, offering unparalleled trust and verifiability. Explore the future of decentralized chat services with our innovative solution.
 
 Default login credentials: 
+
 Username : User
 Password : Password
 
@@ -37,7 +38,9 @@ Detailed steps to install and set up the project. Be sure to include all depende
        
     3. Install the necessary dependencies:
     
-       pip install -r requirements.txt [ web3, ganache, flask, flask_login, anthropic , CORS]
+       pip install -r requirements.txt [ web3, flask, flask_login, anthropic , CORS]
+
+       npm install ganache (Make sure you have Node.js installed)
 
 # Usage
 Run the project:

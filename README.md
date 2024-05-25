@@ -22,10 +22,10 @@ DRY RUN IMAGES:
 Detailed steps to install and set up the project. Be sure to include all dependencies and any system requirements.
 
     1. Clone the repository:
-    bash
+       bash
+       git clone [https://github.com/yourusername/your-repo-name.git] (https://github.com/Detektive-one/blockchain-chatbot)
 
-git clone [https://github.com/yourusername/your-repo-name.git
-](https://github.com/Detektive-one/blockchain-chatbot)
+
 
 Navigate into the project directory:
 

@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for, session
 from flask_cors import CORS
 from web3 import Web3
+from passlib.hash import sha256_crypt
+import os
 import anthropic
 import json
 import threading
@@ -10,7 +12,7 @@ app = Flask(__name__)
 CORS(app) 
 
 client = anthropic.Anthropic(
-    api_key="",
+    api_key="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",
 )
 
 web3 = Web3(Web3.HTTPProvider('http://localhost:8545'))  
@@ -24,7 +26,7 @@ contract = web3.eth.contract(address=contract_address, abi=contract_abi)
 def send_message(chat_identifier, message, from_bot=True):
     
     accounts = web3.eth.accounts
-    account = accounts[1]  # Assuming the first account is the sender
+    account = accounts[1] 
     contract.functions.sendMessage(chat_identifier, message, from_bot).transact({'from': account})
     return True
 
@@ -84,9 +86,7 @@ def get_anthropic_response(user_message):
     except anthropic.BadRequestError as e:
         return jsonify({"error": str(e)}), 400
 
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
-
-valid_credentials = {'username': 'user', 'password': 'password'}
+app.config.from_pyfile('config.py')
 
 @app.route('/')
 def index():
@@ -97,7 +97,7 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        if username == valid_credentials['username'] and password == valid_credentials['password']:  
+        if username == app.config['VALID_USERNAME'] and sha256_crypt.verify(password, app.config['VALID_PASSWORD_HASH']):
             session['logged_in'] = True
             return redirect(url_for('chatbot'))
         else:
@@ -114,6 +114,7 @@ def chatbot():
 def logout():
     session.pop('logged_in', None)
     return redirect(url_for('login'))
+
 
 if __name__ == '__main__':
     app.run(port=3000)

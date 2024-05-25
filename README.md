@@ -33,7 +33,7 @@ Detailed steps to install and set up the project. Be sure to include all depende
        
     3. Install the necessary dependencies:
     
-       pip install -r requirements.txtv ([ web3, ganache, flask, flask_login, anthropic , CORS])
+       pip install -r requirements.txt [ web3, ganache, flask, flask_login, anthropic , CORS]
 
 # Usage
 Run the project:
@@ -52,6 +52,21 @@ Access the application:
     Open a web browser and go to "http://localhost:3000"
     
 - voila we are done. enjoy the chatbot. for any issues with responses, hard refresh the interface.
+
+# Additional Notes
+
+    Ensure you have Python installed on your machine. You can download it from the official Python website.
+
+# Resources
+
+Python Virtual Environments (https://docs.python.org/3/tutorial/venv.html)
+pip User Guide 
+Web3.py Documentation
+Ganache Documentation
+Flask Documentation
+Flask-Login Documentation
+Anthropic API Documentation
+Flask-CORS Documentation
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.

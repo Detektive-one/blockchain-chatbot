@@ -1,7 +1,7 @@
 # Autonomous chat-bot using smart contract and blockchain
 # Description
 
-Welcome to the Autonomous chat-bot based upon smart contract and blockchain! This chatbot leverages the power of the Ethereum blockchain to provide a decentralized, secure, and transparent communication platform. Primarily trained on data related to cybersecurity and blockchain technology, it offers robust and reliable interactions while ensuring data integrity and privacy. Each conversation is immutably stored on the blockchain, offering unparalleled trust and verifiability. Explore the future of decentralized chat services with our innovative solution.
+Welcome to our Autonomous Chatbot, powered by smart contracts and blockchain technology! This innovative chatbot utilizes the Ethereum blockchain to deliver a decentralized, secure, and transparent communication platform. Specializing in cybersecurity and blockchain technology, it provides robust and reliable interactions while ensuring data integrity and privacy. Each conversation is immutably recorded on the blockchain, guaranteeing unparalleled trust and verifiability. Experience the future of decentralized chat services with our cutting-edge solution.
 
 Default login credentials: 
 

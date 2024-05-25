@@ -59,14 +59,21 @@ Access the application:
 
 # Resources
 
-Python Virtual Environments (https://docs.python.org/3/tutorial/venv.html)
-pip User Guide 
-Web3.py Documentation
-Ganache Documentation
-Flask Documentation
-Flask-Login Documentation
-Anthropic API Documentation
-Flask-CORS Documentation
+![Python Virtual Environments]- (https://docs.python.org/3/tutorial/venv.html)
+
+pip User Guide- https://pip.pypa.io/en/stable/user_guide/
+
+Web3.py Documentation- https://web3py.readthedocs.io/en/stable/
+
+Ganache Documentation- https://docs.nethereum.com/en/latest/ethereum-and-clients/ganache-cli/
+
+Flask Documentation- https://flask.palletsprojects.com/en/3.0.x/
+
+Flask-Login Documentation- https://flask-login.readthedocs.io/en/latest/
+
+Anthropic API Documentation- https://docs.anthropic.com/en/api/getting-started
+
+Flask-CORS Documentation- https://flask-cors.readthedocs.io/en/latest/
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.

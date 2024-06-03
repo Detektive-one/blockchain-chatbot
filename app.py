@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app) 
 
 client = anthropic.Anthropic(
-    api_key="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",
+    api_key="your-anthropic-api",
 )
 
 web3 = Web3(Web3.HTTPProvider('http://localhost:8545'))  
